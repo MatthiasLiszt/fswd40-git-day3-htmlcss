@@ -11,19 +11,55 @@
 	padding-left:  10vw;
 }
 
-
+body{
+	background-color:  lightblue;
+	font-family: sans-serif;
+}
 
 #darkmenu{
- background-color: darkblue;	
- color:  grey;
+ 	
+ color:  white;
 }
 
 #darkmenu > ul {
  list-style-type: none;
+ 
 }
 
 #darkmenu > ul li {
 	float:  left;
 	padding-left:  3em;
-	
+    background-color:  darkblue;	
+}
+
+.hline{
+ color: black;	
+}
+
+#newsdiv{
+ color: white;	
+ clear: both;
+ 
+ width: 80vw;
+ padding-left: 10vw;
+ padding-right: 10vw;
+ margin:  1em;
+}
+
+.leftpart {
+	width:  20vw;
+	float: left;
+	font-weight:  bold;
+	text-align: right;
+	/*background-color: green;*/
+}
+
+.rightpart {
+	width:  60vw;
+	float: left;
+	/*background-color: red;*/
+}
+
+#newsdiv span{
+ padding-right: 3em;	
 }
