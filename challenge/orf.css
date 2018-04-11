@@ -1,0 +1,29 @@
+#firstline{
+ display: inline;	
+}
+
+#firstline p{
+	float:  left;
+	padding-left:  10vw;
+}
+
+#firstline > img{
+	padding-left:  10vw;
+}
+
+
+
+#darkmenu{
+ background-color: darkblue;	
+ color:  grey;
+}
+
+#darkmenu > ul {
+ list-style-type: none;
+}
+
+#darkmenu > ul li {
+	float:  left;
+	padding-left:  3em;
+	
+}
